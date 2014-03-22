@@ -1,17 +1,20 @@
 #ifndef WALLFACTORY_H
 #define WALLFACTORY_H
 
+#include "Wall.h"
+#include "Constants.h"
 
 class WallFactory
 {
     public:
-
-        Wall[/* 8*körökSzáma*/] walls;
+        int nrOfRounds;
+        Wall* walls;
 
         WallFactory();
         WallFactory(int);
-        generateWalls(int);
+        void generateWalls(int);
         virtual ~WallFactory();
+        friend std::ostream& operator<<(std::ostream& os, const WallFactory& wf);
     protected:
     private:
 };

@@ -6,8 +6,8 @@ class Constants
 {
     public:
 
-        int SPACE = 10;
-        int HEIGHT = 10;
+        static const int SPACE = 10;
+        static const int HEIGHT = 10;
 
         Constants();
         virtual ~Constants();
