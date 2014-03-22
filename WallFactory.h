@@ -14,7 +14,7 @@ class WallFactory
         WallFactory(int);
         void generateWalls(int);
         virtual ~WallFactory();
-        friend std::ostream& operator<<(std::ostream& os, const WallFactory& wf);
+        //friend std::ostream& operator<<(std::ostream& os, const WallFactory& wf);
     protected:
     private:
 };

@@ -15,9 +15,10 @@ Point::~Point()
 {
     //dtor
 }
-
+/*
 std::ostream& operator<<(std::ostream& os, const Point& p)
 {
   os << "P[" << p.x <<";"<<p.y<<";"<<p.z<<"]";
   return os;
 }
+*/

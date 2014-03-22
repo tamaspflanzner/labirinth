@@ -1,7 +1,7 @@
 #ifndef POINT_H
 #define POINT_H
 
-#include <iostream>
+//#include <iostream>
 
 class Point
 {
@@ -14,7 +14,7 @@ class Point
         int y;
         int z;
 
-        friend std::ostream& operator<<(std::ostream&, const Point&);
+        //friend std::ostream& operator<<(std::ostream&, const Point&);
 
     protected:
     private:

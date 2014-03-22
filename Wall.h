@@ -23,7 +23,7 @@ class Wall
 
         virtual ~Wall();
 
-        friend std::ostream& operator<<(std::ostream& os, const Wall& w);
+        //friend std::ostream& operator<<(std::ostream& os, const Wall& w);
 
     protected:
     private:

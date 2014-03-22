@@ -65,7 +65,7 @@ WallFactory::~WallFactory()
 {
     //dtor
 }
-
+/*
 std::ostream& operator<<(std::ostream& os, const WallFactory& wf)
 {
   os << "WF[" ;
@@ -75,3 +75,4 @@ std::ostream& operator<<(std::ostream& os, const WallFactory& wf)
   os << "]";
   return os;
 }
+*/

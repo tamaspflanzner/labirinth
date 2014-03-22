@@ -11,11 +11,11 @@ class Rectangle
 
         Rectangle();
         Rectangle(Point*, Point*);
-        Rectangle(bool, Point*, Point*);
+        Rectangle(bool, Point*, Point*, int);
         void createRectangle(Point*, Point*);
-        void createSpecialRectangle(bool, Point*, Point*); //tetõ és alja
+        void createSpecialRectangle(bool, Point*, Point*, int); //tetõ és alja
         virtual ~Rectangle();
-        friend std::ostream& operator<<(std::ostream&, const Rectangle& r);
+        //friend std::ostream& operator<<(std::ostream&, const Rectangle& r);
     protected:
     private:
 };
